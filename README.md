@@ -29,7 +29,7 @@ python3 -m venv /path/to/new/virtual/environment
 3. `cd` into the directory you just created a virtual environment in, and clone the GitHub repo:
 
 ```
-git clone https://github.com/Kevin-Mok/spotify-lib-vis
+git clone https://github.com/chrisshyi/spotify-lib-vis
 ```
 
 4. Activate the virtual environment from the command line.
@@ -47,7 +47,7 @@ pip install -r requirements.txt
 6. Run `reset_db.sh` to create the database and start the server.
 
 ```
-cd src && ./reset_db.sh
+./reset_db.sh
 ```
 
 7. Navigate to http://localhost:8000/login to use the application
